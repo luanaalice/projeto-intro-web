@@ -1,0 +1,168 @@
+
+*{
+   margin:0;
+   padding: 0;
+   list-style: none ;
+}
+body {
+   
+    display: grid; 
+    grid: row 100px; ;
+   min-height: 50vh;
+   
+   
+   
+}
+
+
+ 
+
+
+
+
+
+li{
+   display: grid;
+   justify-content: center;
+   align-items: center;
+   grid-template-columns:auto;
+
+
+
+}
+
+ 
+
+
+
+ header h1 {
+   height: 10vh;
+   margin-left: 1em;
+   margin-top: 10px;
+   justify-content: center;
+   width: 100%;
+   align-items: center;
+
+
+   
+ }
+
+
+ main form{
+   justify-content: center;
+   align-items: center;
+
+  
+ }
+ 
+ main {
+   display: grid;
+   grid: template columns 100px; ;
+   justify-content: center;
+   width: 100%;
+   align-items: center;
+
+   
+
+ }
+ 
+
+ footer.nome{
+   height: 5px;
+   width: 5px;
+
+ }
+
+   footer {
+      height: 5px;
+      width: 5px;
+     
+  
+  
+   color: blue;
+   
+    }
+
+    footer p{
+      padding: 5px;
+
+
+    }
+  
+   
+   
+
+ 
+
+
+
+ 
+
+button{
+   background-color: black;
+   color:white;
+   justify-content: center;
+   align-items: center;
+   
+}
+button:hover{
+   
+background-color:blue;
+padding: 3px;
+
+
+
+
+}
+button.type{
+   text-align: center;
+   height: 15vh;
+   
+}
+
+img {
+   display: grid;
+   justify-content: center;
+   margin: auto;
+   height: 180px;
+   width: 180px;
+   
+ }
+
+
+
+
+ @media screen and (min-device-width : 320px) and (max-device-width : 481px) 
+ {
+   li{
+      background-color: brown;
+   }
+
+
+
+   
+   }
+
+
+
+
+ @media screen and (min-device-width : 481px) and (max-device-width : 800px)
+  {
+   
+   li{
+      background-color:blueviolet;
+   }
+}
+
+@media screen and (min-device-width : 1200px)
+ {
+
+   li{
+      background-color:blue;
+      color: white;
+   }
+   
+}
+
+
+ 
